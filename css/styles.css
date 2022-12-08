@@ -32,7 +32,8 @@ font-weight: 800;
 font-size: 18px;
 line-height: calc(24 / 18);
 color: var(--gray-color) ;
-padding: 24px 77px 24px 156px; 
+padding: 24px 156px 1169px 24;
+ margin-right: 77px;
  }
 .web{
     font-family: Raleway, sans-serif;
@@ -74,10 +75,7 @@ line-height: calc(24 / 16)
 }
 .section{
 background:var(--gray-color);
-width: 1440px;
-height: 603px;
-left: 0px;
-top: 72px;
+padding: 192px 474px 291px;
 }
 
 /*HERO*/
@@ -86,12 +84,7 @@ top: 72px;
 color: var(--white-color);
 font-weight: 500;
 font-size: 56px;
-line-height:calc(60/56);
-position: absolute;
-width: 492px;
-height: 120px;
-left: 474px;
-top: 264px;
+line-height:calc(60/56);;
 
  }
  .section-button{
@@ -102,12 +95,9 @@ line-height: calc(19/16);
 background: var(--blue-color);
 color: var(--white-color);
 cursor: pointer;
-position: absolute;
-width: 170px;
-height: 51px;
-left: 635px;
-top: 432px;
-margin-top: 48px;
+padding: 16px 32px;
+margin: 48px auto 0;
+display: block;
 
  }
  .section-button:hover{
