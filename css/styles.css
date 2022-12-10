@@ -11,7 +11,9 @@ body{
  }
  .container{
   max-width: 1158px;
-  margin: 0 auto ;
+  margin: 0 auto;
+  padding-right: 15px;
+padding-left: 15px;
  }
  
  .top-line .container{
@@ -32,8 +34,9 @@ font-weight: 800;
 font-size: 18px;
 line-height: calc(24 / 18);
 color: var(--gray-color) ;
-padding: 24px 156px 1169px 24;
- margin-right: 77px;
+padding-top: 24px;
+    padding-bottom: 24px;
+    margin-right: 77px;
  }
 .web{
     font-family: Raleway, sans-serif;
@@ -56,12 +59,22 @@ color: #434455;
 .top:focus{
 color:var(--blue-color);   
 }
+.header-list{
+    margin-right: 40px;
+    list-style: none;
+}
+.header-list :last-child{
+    margin-right: 0;
+}
 .contact{
-margin-right: 40px;
-list-style: none;
+    margin-right: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    list-style: none;
 color: var(--gray-color);
 font-size: 16px;
 line-height: calc(24 / 16)
+
 }
 
 .contact:hover{
@@ -73,18 +86,21 @@ line-height: calc(24 / 16)
 .link{
     text-decoration: none;
 }
-.section{
-background:var(--gray-color);
-padding: 192px 474px 291px;
-}
+
 
 /*HERO*/
+.section{
+background:var(--gray-color);
+padding-top: 192px;
+padding-bottom: 291px;
+}
 
 .section-text{
 color: var(--white-color);
 font-weight: 500;
 font-size: 56px;
-line-height:calc(60/56);;
+line-height:calc(60/56);
+text-align: center;
 
  }
  .section-button{
@@ -98,6 +114,7 @@ cursor: pointer;
 padding: 16px 32px;
 margin: 48px auto 0;
 display: block;
+border: none;
 
  }
  .section-button:hover{
@@ -110,12 +127,21 @@ display: block;
 
 
  /*SECTION*/
+ .section-two-about .container{
+    display: flex;
+    align-items: center;
+ }
 
  .section-two{
     display: flex;
+    margin-top: 120px;
+    padding: 0;
  }
  .about{
     margin-right: 24px;
+ }
+ .about :last-child{
+margin-right: 0px;
  }
  
  .text-top{
@@ -131,9 +157,14 @@ color: #434455;
  }
 
  /*Section 3 */
+ .section-three{
+ }
 
  .photo{
     display: flex;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 0;
  }
  .title{
     margin-right: 24px;
@@ -145,79 +176,119 @@ color: #434455;
 font-size: 36px;
 line-height: calc(40/36);
 color: var(--gray-color);
+text-align: center;
 margin-top: 120px; 
 margin-bottom: 72px;
  }
+
+
+ /*SECTION 4*/
 
  .photo-team{
     margin-right: 24px;
  }
 
+
  .team-title{
-    text-align: center;
-    font-weight: 500;
+font-weight: 500;
 font-size: 36px;
 line-height:calc(40/36) ;
 color: var(--gray-color);
-margin-top: 120px;
-margin-bottom: 72px;
+text-align: center;
+padding-top: 120px;
+padding-bottom: 72px;
  }
  .team{
-    margin-top: 120px;
    background-color:  #F4F4FD;
+   margin-top: 120px;
+   padding-left: 0;
    display: flex;
-    align-items: center;
+
  }
  .team-text{
     font-weight: 500;
 font-size: 20px;
 line-height: calc(24/20);
-color: var(--gray-color);;
+color: var(--gray-color);
+text-align: center;
  }
  .team-prof{
 font-size: 16px;
 line-height: calc(24/16);
 color: #434455;
+text-align: center;
  }
- 
+ .photo-color{
+    padding: 32px 16px;
+    background: var(--white-color);
+ }
  
 
 
 /*FOOTER*/
 
  .logo{
-    width: 1440px;
-height: 310px;
-left: 0px;
-top: 2283px;
-   background:  var(--gray-color);
+background:  var(--gray-color);
+margin-top: 120px;
+padding-top: 100px;
+padding-bottom: 100px;
+padding-left: 156px;
+padding-right: 1020px;
  }
  .footer-logo{
-padding: 100px 1169px 188px 156px;
-display: flex;
+    margin-bottom: 16px;
+    display: block;
 font-weight: 800;
 font-size: 18px;
 line-height: calc(21/18);
 color: #F4F4FD;
 font-family: Raleway, sans-serif
+
  }
  .footer-web{
+padding-top: 100px;
+padding-bottom: 188px;
 font-weight: 800;
 font-size: 18px;
 line-height: calc(24 / 18) ;
 color: var(--blue-color);;
 font-family: Raleway, sans-serif
+
  }
  .footer-info{
-    position: absolute;
-width: 264px;
-height: 72px;
-left: 156px;
-top: 2421px;
 font-size: 16px;
 line-height: calc(24/16);
 color: var(--bage-color);
  }
+
+ /*PORTFOLIO*/
+
+ .portfolio{
+    padding-top: 96px;
+    padding-bottom: 120px;
+ }
+ .portfolio-photo{
+    display: flex;
+    flex-wrap: wrap;
+ }
+ .portfolio-btn{
+    display: flex;
+    margin-bottom:72px;
+    justify-content: center;
+    margin-right: 24px;
+ }
+ .portfolio-btn-list{
+    padding: 8px 16px;
+ }
+ .portfolio-btn-list :last-child{
+    margin-right: 0;
+ }
+ .section-portfolio-photo{
+    border: 0.5px solid #F4F4FD;
+    margin-right: 24px;
+    margin-bottom: 48px;
+ }
+
 
  .btn{
     color: var(--blue-color);;;
@@ -227,6 +298,9 @@ color: var(--bage-color);
     font-weight: 600;
 font-size: 16px;
 line-height:calc(24 / 16);
+padding: 8px 16px;
+    display: block;
+    border: none;
  }
  .btn:focus{
 color: var(--white-color);
