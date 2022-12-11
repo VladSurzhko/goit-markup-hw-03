@@ -268,6 +268,8 @@ font-family: Raleway, sans-serif
 font-size: 16px;
 line-height: calc(24/16);
 color: var(--bage-color);
+width: 264px;
+margin: 0;
  }
 
  /*PORTFOLIO*/
