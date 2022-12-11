@@ -13,7 +13,7 @@ body{
   max-width: 1158px;
   margin: 0 auto;
   padding-right: 15px;
-padding-left: 15px;
+  padding-left: 15px;
  }
  
  .top-line .container{
@@ -101,6 +101,7 @@ font-weight: 500;
 font-size: 56px;
 line-height:calc(60/56);
 text-align: center;
+margin: 0;
 
  }
  .section-button{
@@ -169,6 +170,9 @@ color: #434455;
  .title{
     margin-right: 24px;
  }
+ .title :last-child{
+    margin-right: 0;
+ }
 
  .photo-title{
     text-align: center;
@@ -183,6 +187,11 @@ margin-bottom: 72px;
 
 
  /*SECTION 4*/
+ .section-four{
+    background: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
+ }
 
  .photo-team{
     margin-right: 24px;
@@ -211,6 +220,7 @@ font-size: 20px;
 line-height: calc(24/20);
 color: var(--gray-color);
 text-align: center;
+margin: 0;
  }
  .team-prof{
 font-size: 16px;
@@ -229,7 +239,6 @@ text-align: center;
 
  .logo{
 background:  var(--gray-color);
-margin-top: 120px;
 padding-top: 100px;
 padding-bottom: 100px;
 padding-left: 156px;
@@ -270,6 +279,9 @@ color: var(--bage-color);
  .portfolio-photo{
     display: flex;
     flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    gap: 48px 24px; 
  }
  .portfolio-btn{
     display: flex;
@@ -283,10 +295,16 @@ color: var(--bage-color);
  .portfolio-btn-list :last-child{
     margin-right: 0;
  }
+ .portfolio-img{
+    display: block;
+ }
  .section-portfolio-photo{
+    
+ }
+ .portfolio-text{
+    padding: 32px 16px;
     border: 0.5px solid #F4F4FD;
-    margin-right: 24px;
-    margin-bottom: 48px;
+    border-top: none;
  }
 
 
@@ -314,7 +332,8 @@ color: var(--white-color);
     font-weight: 500;
 font-size: 20px;
 line-height: calc(24/20);
-color: var(--gray-color);;
+color: var(--gray-color);
+margin: 0;
  }
  .discription-text{
 font-size: 16px;
