@@ -9,6 +9,11 @@ body{
     font-family:Roboto, sans-serif;
     background: var(--white-color);
  }
+ ul { 
+    list-style: none; 
+    padding-left: 0; 
+    margin: 0; 
+}
  .container{
   max-width: 1158px;
   margin: 0 auto;
@@ -199,7 +204,9 @@ font-size: 36px;
 line-height: calc(40/36);
 color: var(--gray-color);
 text-align: center; 
+margin: 0;
 margin-bottom: 72px;
+
  }
 
 
